@@ -11,8 +11,8 @@ from flax.training import checkpoints
 
 import pickle as pkl
 import os
-import gym
-from gym.wrappers.record_episode_statistics import RecordEpisodeStatistics
+import gymnasium as gym
+from gymnasium.wrappers.record_episode_statistics import RecordEpisodeStatistics
 
 from serl_launcher.agents.continuous.drq import DrQAgent
 from serl_launcher.utils.timer_utils import Timer

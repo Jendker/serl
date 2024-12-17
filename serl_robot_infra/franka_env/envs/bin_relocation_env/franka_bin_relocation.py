@@ -4,7 +4,7 @@ import requests
 import copy
 import cv2
 import queue
-import gym
+import gymnasium as gym
 
 from franka_env.envs.franka_env import FrankaEnv
 from franka_env.utils.rotations import euler_2_quat
